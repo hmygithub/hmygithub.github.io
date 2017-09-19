@@ -21,5 +21,5 @@
   [中文文档](http://design.1sters.com/material_design/material-design/introduction.html#)
   ### 8、其它
   [饥人谷JS Bin](js.jirengu.com/?html.output)
-  [Linux命令行讲义](https://jscode.me/t/linux/1496)
+  [Linux命令行讲义](https://jscode.me/t/linux/1496)  
   [饥人谷](https://jscode.me/)
