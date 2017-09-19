@@ -6,4 +6,6 @@
 
 ## 如何预览
 
-点击
+点击https://hmygithub.io/blog20170919.git/即可预览
+
+
