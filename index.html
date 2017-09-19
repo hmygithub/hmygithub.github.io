@@ -1,5 +1,36 @@
 <!DOCTYPE html>
 <html>
-<title>我的第一个页面</title>
-这是内容
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+  <Link rel="stylesheet" href="http://typo.sofi.sh/typo.css"></Link>
+   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <style>
+   body{
+      padding: 16px
+    }
+   img{
+     max-width=100%
+   }
+  </style>
+  
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.js"></script>
+</head>
+ 
+<body>
+<div id="app">
+  # 我的第一篇博客
+  **youyou**  
+  不要相信网上的名人名言。  
+  大家好，我今天学会了markdown.  
+<img src="http://news.sosol.com.cn/news/html/xhtml/NewsImages/20070316/20070316153730592.jpg" alt="">
+</div>
+<script>
+  var content = document.getElementById('app')
+  var markdown = content.innerHTML 
+  var html = marked(markdown)
+  content.innerHTML = html
+  console.log(markdown)  
+</script>  
+</body>
 </html>
