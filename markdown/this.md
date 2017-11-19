@@ -95,7 +95,7 @@ $.ajax({
     }
 });
 ``````````
- >这里说明一下，将代码简写为$.ajax（obj） ，this指向obj,在obj中this指向window，
+ >这里说明一下，将代码简写为$.ajax（obj），this指向obj，在obj中this指向window，
  >因为在在success方法中，独享obj调用自己，所以this指向obj
 
 ## 改变this的指向问题
@@ -173,7 +173,8 @@ $.ajax({
     boss1showThis() // boss1
     new boss1showThis() // showThis
     ``````
-### 四、箭头函数，绑定将不起作用
+
+  ### 四、箭头函数，绑定将不起作用
 //  对于箭头函数，只要看它在哪里创建
     ````
     function callback (cb) {
