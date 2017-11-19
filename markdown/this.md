@@ -47,10 +47,12 @@ var btn = document.querySelector("button")
 }
 ````
 // 4、事件监听：
-````var btn = document.querySelector("button")
+````
+var btn = document.querySelector("button")
 btn.addEventListener('click', function () {
 console.log(this) //btn
-})````
+})
+````
 #### 5、在构造函数或者构造函数原型对象中this指向构造函数的实例
 不使用new指向window
 `````
