@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #div1{
+            background:pink;
+            color: #fff
+        }
+    </style>
+</head>
+<body>
+<div id="div1" style="width: 400px;height: 200px">
+    我是div1
+</div>
+<script>
+    var oDiv = document.getElementById('div1')
+    console.log(window.innerHeight)
+//    function f1(){
+//        var n=999
+//        function f2(){
+//            alert(n)
+//        }
+//        return f2
+//    }
+//    var result=f1()
+//    result()
+
+//    function f1(){
+//        var n = 999
+//        nAdd=function(){n+=1}
+//        function f2(){
+//            alert(n)
+//        }
+//        return f2
+//    }
+//    var result=f1()
+//    result()
+//    nAdd()
+//    result()
+    
+//    var name = "The Window"
+//    var object = {
+//        name:"My Object",
+//        getNameFunc: function(){
+//            return function(){
+//                return this.name
+//            }
+//        }
+//    }
+//    console.log(object.getNameFunc()())
+
+    var name = "The Window"
+    var object = {
+        name: "My Object",
+        getNameFunc: function(){
+            var that = this
+            return function(){
+                return that.name
+            }
+        }
+    }
+    console.log(object.getNameFunc()())
+</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    var realtime = [{code: 1, name: "indicator_1", value: 0},
+        {code: 2, name: "indicator_2", value: 0},
+        {code: 3, name: "indicator_3", value: 0},
+        {code: 4, name: "indicator_4", value: 0},
+        {code: 5, name: "indicator_5", value: 0},
+        {code: 6, name: "indicator_6", value: 0},
+        {code: 17, name: "indicator_17", value: 0},
+        {code: 18, name: "indicator_18", value: 1},
+        {code: 19, name: "indicator_19", value: 0},
+        {code: 31, name: "indicator_31", value: 0},
+        {code: 32, name: "indicator_32", value: 0},
+        {code: 52, name: "indicator_52", value: 0}
+    ]
+
+    var indicators = [
+        {id: 1, key: "IA", name: "A相电流", unit: "A"},
+        {id: 2, key: "IB", name: "B相电流", unit: "A"},
+        {id: 3, key: "IC", name: "C相电流", unit: "A"},
+        {id: 4, key: "UA", name: "A相电压", unit: "V"},
+        {id: 5, key: "UB", name: "B相电压", unit: "V"},
+        {id: 6, key: "UC", name: "C相电压", unit: "V"}
+    ]
+
+    realtime.map(item=>{
+        indicators.map(subItem=>{
+            if (item.code== subItem.id){
+                item.name = subItem.name
+                console.log('有')
+            }
+        })
+    })
+    
+    console.log(realtime)
+</script>
+</body>
+</html>

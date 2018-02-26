@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://E:/a-redux/goods-filter/src/App.js" charset="UTF-8" />
+    <file url="file://E:/a-redux/goods-filter/src/Tab.js" charset="UTF-8" />
+    <file url="file://E:/a-redux/goods-filter/src/common/data/goodsSort.js" charset="UTF-8" />
+    <file url="file://E:/a-redux/manage/src/actions/dataPoint.js" charset="UTF-8" />
+    <file url="file://E:/a-redux/manage/src/actions/snackBar.js" charset="UTF-8" />
+    <file url="file://E:/a-redux/manage/src/components/Devices/EditDeviceTypeIndicatorBinding.js" charset="UTF-8" />
+    <file url="file://E:/a-redux/manage/src/reducers/devices_type.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nodejs/02.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nodejs/03.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nodejs/05.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nodejs/07.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nodejs/pages/text1.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nodejs/pages/text2.txt" charset="UTF-8" />
+  </component>
+</project>
